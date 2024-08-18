@@ -31,5 +31,3 @@ All the component file should start with a capital letter.
 ### -------------------------------------------------------------------------------------------------------------------------
 ## 📕Notes
 ### -------------------------------------------------------------------------------------------------------------------------
-# credit to end to end youtube channel(helping me learn)
-but the project built will be different (as have add to make changes and added new components)
