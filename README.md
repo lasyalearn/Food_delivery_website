@@ -21,6 +21,7 @@ also the fs-1 class is part of bootstrap (ig)😅----> it is used to increase th
 font-family: 'NHaasGroteskDSPro-65Md' !important; ----------> is added to index.css
 important!---> it seems that index.css will effect the whole project it seems
 for the above to tak eeffect we should add <link href="https://db.onlinewebfonts.com/c/f21923cb0f60b46d41a66875255790b3?family=NHaasGroteskDSPro-65Md" rel="stylesheet" type="text/css" /> in index.html just before index.html
+with the above additions it make the text bold
 ### ---------------------------------------------------------------------------------------------------------
 ## Compoents for the react page
 components are something which are reuseble on every screen
@@ -31,9 +32,12 @@ All the component file should start with a capital letter.
 
 1. component we will create is Navbar.js (inside if tpye rfc ---> we will get the default code ).Here we used some bootstrap default code. (class is wrong so change all the class to the className and routing needed be used)(/ --> home page default )(so intial it mean ur routing back to the same home page  which is == to reloading the page)                                            ->navbar-expand-lg------>This class makes the navbar responsive. It specifies that the navbar should be expanded (i.e., horizontal) on large screens (lg and up), but collapse into a vertical menu on smaller screens.                       
            ->nav-dark------>This class will making the writing in the navbar will be dark                                    
-           ->bg-success---->This class will give the background to the navbar (which defaultly will be green  which is set by bootstrap)                                                                                                               All the css in bootstrap are predefined class (liked mentioned before fs-1----> increases the size)( fst-italic)              And one more thing I have noticed is that if u type the class name wrong also the error won't show up only that styling will not come( font related for now)          
-2. we have also create the footer component
-3. 
+           ->bg-success---->This class will give the background to the navbar (which defaultly will be green  which is set by bootstrap)
+https://cssgradient.io/---------------> you can get ur own colour gardient for ur nav bar
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/8f4a9da5-b929-4a7b-a909-2b018afd0fd5">
+All the css in bootstrap are predefined class (liked mentioned before fs-1----> increases the size)( fst-italic)             And one more thing I have noticed is that if u type the class name wrong also the error won't show up only that styling will not come( font related for now)          
+3. we have also create the footer component
+4. 
 
 ### ---------------------------------------------------------------------------------------------------------
 ## 📕Notes and explanations
@@ -43,6 +47,15 @@ All the component file should start with a capital letter.
 ### ---------------------------------------------------------------------------------------------------------
 ## screens are the different web pages(like home page, order page  and so on...)
 1. Home page(here also we type rfc to get the default code page where we called the navbar and the footer component)(how to the handle the anchor tag)(the anchortage is used to go to the next page)
+Now we are added card  code -----> in html it fine if u don't close the image tag but it is complusary in the JSX
+change the class to className
+m-3 (puts  a margin in all the three sides)
+mt-3 only on the top
+if style nedds to be added style={{"":"","":""}}
+rounded ---> is a class to round the the select box
+container-reates a responsive fixed-width container that adjusts based on the viewport size. The width of the container changes at different breakpoints (e.g., xs, sm, md, lg, xl, and xxl), ensuring that the content inside is always properly aligned and looks good across all screen sizes.                                                                              Bootstrap is inherently a mobile-first framework. This means that the default styling and layout are designed for mobile devices first, and then additional styles and adjustments are applied for larger screens using media queries.                How to write javascript in JSX??
+ans--> The curly braces {} in JSX allow you to embed JavaScript expressions inside your JSX code.                            Array(6): Creates an array with 6 elements, each initialized as undefined.                                                The Array.from() method creates a new array instance from an array-like or iterable object.
+(e,i) => { ... }: This is an arrow function that runs for each element in the array. The variable i represents the current index of the element in the array (ranging from 0 to 5).(e stand for the itrable element , i stand for the index)            <option>: This is an HTML element that represents an individual option within a <select> dropdown. Users can select one of these options.Keys are like index( but it can be anything unlike the standard 0,1,2...) ans values are what is place in that place.
 2.App.js the default file u get when u create the react app will have the (all the routes to diferent screens)
 3.Login page
 ### ---------------------------------------------------------------------------------------------------------
