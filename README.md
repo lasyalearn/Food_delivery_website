@@ -33,7 +33,7 @@ All the component file should start with a capital letter.
 1. component we will create is Navbar.js (inside if tpye rfc ---> we will get the default code ).Here we used some bootstrap default code. (class is wrong so change all the class to the className and routing needed be used)(/ --> home page default )(so intial it mean ur routing back to the same home page  which is == to reloading the page)                                            ->navbar-expand-lg------>This class makes the navbar responsive. It specifies that the navbar should be expanded (i.e., horizontal) on large screens (lg and up), but collapse into a vertical menu on smaller screens.                       
            ->nav-dark------>This class will making the writing in the navbar will be dark                                    
            ->bg-success---->This class will give the background to the navbar (which defaultly will be green  which is set by bootstrap)
-https://cssgradient.io/---------------> you can get ur own colour gardient for ur nav bar
+https://cssgradient.io/ ---------------> you can get ur own colour gardient for ur nav bar
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/8f4a9da5-b929-4a7b-a909-2b018afd0fd5">
 All the css in bootstrap are predefined class (liked mentioned before fs-1----> increases the size)( fst-italic)             And one more thing I have noticed is that if u type the class name wrong also the error won't show up only that styling will not come( font related for now)          
 3. we have also create the footer component
