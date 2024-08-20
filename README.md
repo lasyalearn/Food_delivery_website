@@ -19,6 +19,7 @@ the  dependecire\es are present in package.json file
 also the fs-1 class is part of bootstrap (ig)😅----> it is used to increase the font size
 font-family: 'NHaasGroteskDSPro-65Md' !important; ----------> is added to index.css
 important!---> it seems that index.css will effect the whole project it seems
+for the above to tak eeffect we should add <link href="https://db.onlinewebfonts.com/c/f21923cb0f60b46d41a66875255790b3?family=NHaasGroteskDSPro-65Md" rel="stylesheet" type="text/css" /> in index.html just before index.html
 ### ---------------------------------------------------------------------------------------------------------
 ## Compoents for the react page
 components are something which are reuseble on every screen
@@ -58,6 +59,7 @@ as mentioned before
 ## 📕Notes and explanations
 ### ---------------------------------------------------------------------------------------------------------
 ##Extra
+
 1.if ur getting this warning 
 ans-->One of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
@@ -72,6 +74,8 @@ your devDependencies to work around this error. This will make this message
 go away.
 install 
 npm install --save-dev @babel/plugin-proposal-private-property-in-object
+
+
 2.There is an another warning   Line 5:1:  Unexpected default export of anonymous function  import/no-anonymous-default-export     
 ans--> the problem was that (when u pressed rfc and the default code comes)(it has function (export default function <function name()>) sometime back the function name got erased by mistake and hence the error came to be)
 I will push the project at the end( for now i will edit the readme file only everyday)
