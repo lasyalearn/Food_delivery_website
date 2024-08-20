@@ -5,7 +5,7 @@ React makes use of JSX instead of javascript....
 the differences betweeen the two are:-
 1. change in reserved words( JAvascript uses class...While JSX uses className)
 before planning ur website always segregate between reusable components and screens(planning is key)
-### -------------------------------------------------------------------------------------------------------------------------
+### ------------------------------------------------------------------------------------------------------------
 ## intial setup-------(if ur building from scratch😁)
 npx create-react-app food_app ---> is used to create the react app ------> food_app folder is created with some pre-written files
 to run the react app you need to enter the food_app folder --------> cd food_app ------> then ----->npm start
