@@ -5,7 +5,7 @@ React makes use of JSX instead of javascript....
 the differences betweeen the two are:-
 1. change in reserved words( JAvascript uses class...While JSX uses className)
 before planning ur website always segregate between reusable components and screens(planning is key)
-### ------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------
 ## intial setup-------(if ur building from scratch😁)
 npx create-react-app food_app ---> is used to create the react app ------> food_app folder is created with some pre-written files
 to run the react app you need to enter the food_app folder --------> cd food_app ------> then ----->npm start
@@ -19,7 +19,7 @@ the  dependecire\es are present in package.json file
 also the fs-1 class is part of bootstrap (ig)😅----> it is used to increase the font size
 font-family: 'NHaasGroteskDSPro-65Md' !important; ----------> is added to index.css
 important!---> it seems that index.css will effect the whole project it seems
-### -------------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------
 ## Compoents for the react page
 components are something which are reuseble on every screen
 Let's learn how to create various components in react
@@ -31,21 +31,21 @@ All the component file should start with a capital letter.
 2. we have also create the footer component
 3. 
 
-### -------------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------
 ## 📕Notes and explanations
 1.it seems in react function we can't have multiple divs ---> to help with this we need to enclose in the multiple div in a empty parent tag<></>  or a div(a div can have multiple div tages inside of it)
 2.after creating a component in the components folder it won't reflect in main app web page unless we need import th file and use it as a tag
 
-### -------------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------
 ## screens are the different web pages(like home page, order page  and so on...)
 1. Home page(here also we type rfc to get the default code page where we called the navbar and the footer component)(how to the handle the anchor tag)(the anchortage is used to go to the next page)
 2.App.js the default file u get when u create the react app will have the (all the routes to diferent screens)
 3.Login page
-### -------------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------
 ## 📕Notes and explanations
-### -------------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------
 
-### -------------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------
 ## routers in react (used to navigate from one react page to another)
 To make us of router we need to install react router dom ------> npm i react-router-dom
 check in the package.json file whether it is added in the dependencies
@@ -54,9 +54,9 @@ as mentioned before
  to use the above first we need to import ----------> import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"; in the home page 
 1.  creaated a route for the home page
 2.  login page
-### -------------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------
 ## 📕Notes and explanations
-### -------------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------
 ##Extra
 1.if ur getting this warning 
 ans-->One of your dependencies, babel-preset-react-app, is importing the
