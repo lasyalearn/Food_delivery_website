@@ -2,6 +2,7 @@
 ## learn with me 😀
 React is used for creating single web pages.....
 React makes use of JSX instead of javascript....
+
 the differences betweeen the two are:-
 1. change in reserved words( JAvascript uses class...While JSX uses className)
 before planning ur website always segregate between reusable components and screens(planning is key)
@@ -26,6 +27,8 @@ components are something which are reuseble on every screen
 Let's learn how to create various components in react
 create a new folder called components in src and each which we will create file in components will be a component of the react web page 
 All the component file should start with a capital letter.
+
+
 1. component we will create is Navbar.js (inside if tpye rfc ---> we will get the default code ).Here we used some bootstrap default code. (class is wrong so change all the class to the className and routing needed be used)(/ --> home page default )(so intial it mean ur routing back to the same home page  which is == to reloading the page)                                            ->navbar-expand-lg------>This class makes the navbar responsive. It specifies that the navbar should be expanded (i.e., horizontal) on large screens (lg and up), but collapse into a vertical menu on smaller screens.                       
            ->nav-dark------>This class will making the writing in the navbar will be dark                                    
            ->bg-success---->This class will give the background to the navbar (which defaultly will be green  which is set by bootstrap)                                                                                                               All the css in bootstrap are predefined class (liked mentioned before fs-1----> increases the size)( fst-italic)              And one more thing I have noticed is that if u type the class name wrong also the error won't show up only that styling will not come( font related for now)          
@@ -53,12 +56,13 @@ check in the package.json file whether it is added in the dependencies
 as mentioned before
  we use react router to replace all of anchor tags
  to use the above first we need to import ----------> import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"; in the home page 
+ 
 1.  creaated a route for the home page
 2.  login page
 ### ---------------------------------------------------------------------------------------------------------
 ## 📕Notes and explanations
 ### ---------------------------------------------------------------------------------------------------------
-##Extra
+## Extra
 
 1.if ur getting this warning 
 ans-->One of your dependencies, babel-preset-react-app, is importing the
